@@ -1,0 +1,179 @@
+/* General Styling. */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h4 { font-size: 19px; }
+
+
+.wrapper { color: #162455; 
+		   font-family: system-ui, sans-serif;
+	       text-align: center;
+}
+
+
+/* Styling for the Head Section. */
+
+.header { float: left;
+		  width: 100%;
+		  height: auto;
+		  margin-top: 30px;		  
+}
+
+.header .left { float: left; }
+
+.header .middle { float: left; }
+
+.header .right { float: right; opacity: 0.8; }
+
+.header .right:hover { cursor: pointer;  }
+
+.header .left, .header .right { width: 30%; }
+
+.header .left h3 { color: #6B6B6B; }
+
+.header .middle ul { list-style-type: none; }
+
+.header .middle ul li { display: inline;
+					    padding: 0 12px;
+}
+
+.header .middle ul li a { color: #162455; 
+						  font-size: 14px;
+						  text-decoration: none;
+}
+
+.header .middle ul li a:hover { padding-bottom: 7px;
+			                    border-bottom: 2px solid gray; 
+ }
+
+
+
+/* Styling for First Content. */
+
+
+ .first-content { float: left;
+ 				  width: 100%;
+ 				  margin-top: 60px;
+ 				   				  
+ }
+
+ .first-content .p1 { font-size: 28px; }
+
+ .first-content .p2 { font-size: 12.5px; 
+ 					  padding-top: 10px; 
+ 					  line-height: 22px; 
+ 					  letter-spacing: 0.3px; 
+}
+
+.first-content input { color: gray;
+					   border: 1px solid lightgray; 
+					   border-right: none; 
+					   padding: 8px 20px; 
+					   border-radius: 20px; 
+}
+
+.first-content button { border: none; 
+		 				background: #6A57E5; 
+		 				color: white; 
+		 				border-radius: 18px; 
+		 				padding: 8px 15px; 
+		 				font-size: 11px; 
+		 				letter-spacing: 0.4px; 
+}
+
+.first-content button:hover { cursor: pointer; opacity: 0.9; }
+
+
+
+/* Styling for Second Content. */
+
+
+.second-content { float: left; 
+			      width: 100%; 
+			      height: auto; 
+			      margin-top: 45px; 
+}
+
+.second-content button { border: none; 
+		 				 background: #6A57E5; 
+		 				 color: white; 
+		 				 border-radius: 18px; 
+		 				 padding: 9px 15px;
+		 				 margin: 0 80px; 
+		 				 font-size: 11.5px; 
+		 				 letter-spacing: 0.5px; 
+}
+
+.second-content button:hover { cursor: pointer; opacity: 0.9; }
+
+
+
+/* Styling for Third Content. */
+
+
+.third-content { float: left;
+				 width: 100%;
+				 height: auto;
+				 margin-top: 90px;
+				 padding-bottom: 30px;
+}
+
+.third-content .p1 { font-size: 13px; 
+				     padding-top: 10px; 
+				     line-height: 21px; 
+				     letter-spacing: 0.3px;
+}
+
+.third-content .left { float: left; margin-top: 23px; margin-left: 200px; }
+
+.third-content .right { float: right; margin-right: 200px; }
+
+.third-content .left p { font-size: 12.5px; 
+						 text-align: left;
+					     letter-spacing: 0.5px; 
+}
+
+.third-content .left .one, .left .two, .left .three { width: ;
+											          margin: 10px 0;
+												      padding: 15px 80px 15px 15px;  
+					                                  border: 1px solid lightgray;
+					                                  border-radius: 8px;
+}
+
+.third-content .left .two { background: #6A57E5; color: white; }
+
+
+
+/* Styling for the Footer Section. */
+
+
+.footer { float: left;
+		  width: 100%;
+		  height: auto;
+		  padding-top: 80px;
+		  background: #EDEEFF;
+}
+
+.footer .p1 { font-size: 13px; 
+			  padding-top: 10px; 
+			  line-height: 21px; 
+			  letter-spacing: 0.3px;
+}
+
+.footer .left { float: left; margin-left: 100px; margin-right: 60px; }
+
+.footer .right { float: left; }
+
+.footer .right .one-to-six { background: white;
+					         color: gray; 
+					         margin: 20px 15px;
+					         padding: 15px 50px;
+					         border-radius: 5px;
+				             box-shadow: 0 1px 5px lightgray;
+}
+
+.footer .right .one-to-six img { width: 40px; height: 40px; }
+
+.footer .right .one-to-six p { font-size: 14px; }
